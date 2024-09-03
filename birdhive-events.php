@@ -28,6 +28,9 @@ $plugin_path = plugin_dir_path( __FILE__ );
 
 function brdhv_register_post_type_event() {
 
+	//if ( whx4_custom_caps() ) { $caps = array('location', 'locations'); } else { $caps = "post"; }
+	$caps = "post";
+	
 	$labels = array(
 		'name' => __( 'Brdhv Events', 'brdhv' ),
 		'singular_name' => __( 'Event', 'brdhv' ),
