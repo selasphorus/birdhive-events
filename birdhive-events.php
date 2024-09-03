@@ -29,7 +29,7 @@ $plugin_path = plugin_dir_path( __FILE__ );
 function brdhv_register_post_type_event() {
 
 	$labels = array(
-		'name' => __( 'Birdhive Events', 'brdhv' ),
+		'name' => __( 'Brdhv Events', 'brdhv' ),
 		'singular_name' => __( 'Event', 'brdhv' ),
 		'add_new' => __( 'New Event', 'brdhv' ),
 		'add_new_item' => __( 'Add New Event', 'brdhv' ),
